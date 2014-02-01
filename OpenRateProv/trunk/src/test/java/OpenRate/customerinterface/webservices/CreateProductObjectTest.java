@@ -278,7 +278,7 @@ public class CreateProductObjectTest {
     System.out.println("CustID as key, CustID not found");
     System.out.println("Expected result -7 Cust ID Not Found");
 
-    createProductMethodReturnTypeObj = createProductObject.createProduct(null,"",100,"P.2","SUB2","TEL","20080101000000","20080201000000","20080201000000");
+    createProductMethodReturnTypeObj = createProductObject.createProduct(null,"",999100,"P.2","SUB2","TEL","20080101000000","20080201000000","20080201000000");
 
     System.out.println(" EXIT ERROR :"+createProductMethodReturnTypeObj.getReturnCode()+"");
     System.out.println(" MESSAGE :"+createProductMethodReturnTypeObj.getMessage()+"");

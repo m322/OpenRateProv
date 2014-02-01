@@ -384,7 +384,7 @@ public class CreateAliasObjectTest {
     System.out.println("Add an alias, CustID as key");
     System.out.println("Expected result -7 CustID not found");
 
-    createAliasMethodReturnTypeObj = createAliasObject.createAlias(null,"",100,"222100000000005","SUB2","20070101000000","20070101000000","20061231000000");
+    createAliasMethodReturnTypeObj = createAliasObject.createAlias(null,"",999100,"222100000000005","SUB2","20070101000000","20070101000000","20061231000000");
 
     System.out.println(" EXIT ERROR :"+createAliasMethodReturnTypeObj.getReturnCode()+"");
     System.out.println(" MESSAGE :"+createAliasMethodReturnTypeObj.getMessage()+"");

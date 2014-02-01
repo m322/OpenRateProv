@@ -243,7 +243,7 @@ public class ModifyCustomerObjectTest {
     System.out.println("Modify Customer, using CustID as key");
     System.out.println("Expected result -7 Cust ID not found");
 
-    modifyCustomerMethodReturnTypeObj = modifyCustomerObject.modifyCustomer(null,"",100,"20060303090001","20010303090001");
+    modifyCustomerMethodReturnTypeObj = modifyCustomerObject.modifyCustomer(null,"",999100,"20060303090001","20010303090001");
 
     System.out.println(" EXIT ERROR :"+modifyCustomerMethodReturnTypeObj.getReturnCode()+"");
     System.out.println(" MESSAGE :"+modifyCustomerMethodReturnTypeObj.getMessage()+"");

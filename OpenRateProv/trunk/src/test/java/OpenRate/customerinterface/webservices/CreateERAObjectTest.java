@@ -246,7 +246,7 @@ public class CreateERAObjectTest {
     System.out.println("Add an ERA, using CustID as key, CustID not found");
     System.out.println("Expected result -7, CustID Not Found");
 
-    createERAMethodReturnTypeObj = createERAObject.createERA(null,"",100,"ERAKey2","ERAValue2","");
+    createERAMethodReturnTypeObj = createERAObject.createERA(null,"",999100,"ERAKey2","ERAValue2","");
 
     System.out.println(" EXIT ERROR :"+createERAMethodReturnTypeObj.getReturnCode()+"");
     System.out.println(" MESSAGE :"+createERAMethodReturnTypeObj.getMessage()+"");
